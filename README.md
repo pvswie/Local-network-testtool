@@ -7,7 +7,7 @@ System requirements:
 
 Why I created this script:
 
-In a small apartment with too many to count wifi networks I experience occasional (monthly - weeky - daily) issues. Such an issue starts with wifi performance dropping until Wifi becomes completely unusable.My intention is to have a device monitor Wifi 24/7/365 logging all issues. Hopefully the logged date-time stamps lead to identification of the cause.
+In a small apartment with too many to count wifi networks I experience occasional (monthly - weeky - daily) issues. Such an issue starts with wifi performance dropping until Wifi becomes completely unusable. Some time later things start to work again. My intention is to have a device monitor Wifi 24/7/365 logging all issues. Hopefully the logged date-time stamps lead to identification of the cause.
 
 Remarks:
 The test script uses the iperf3 (or 2) protocol to test whether a minimum bandwidth (1.0 Mbit) is achieved across the network. Due to the low bandwidth this does not really impact Wifi performance. Basically it is possible to use an external iperf3 server but that is not the best idea for many reasons. Some examples: (1) iperf3 servers support only one simulatinous connection; (2) iperf3 servers are not very reliable, if a connection is not properly closed the server remains in a busy state not accepting new connection requests.

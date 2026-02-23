@@ -1,5 +1,5 @@
 # Local-network-reliability-testtool
-python test tool for identifying and logging issues with a local (home) network. The tool is designed to run 24/7/365 logging issues with the wifi network through which the tool is testing.
+This tool is designed to run 24/7/365 logging issues with the (wifi) network being tested.
 
 System requirements:
 - A client running the python3 test script. The script has been tested to work on linux and termux/android.

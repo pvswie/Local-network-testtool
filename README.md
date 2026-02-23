@@ -5,7 +5,7 @@ System requirements:
 - A client running the python3 test script. The script has been tested to work on linux and termux/android.
 - A iperf2 and/or iperf3 server, preferably inside the local (home) network, e.g. on the internet router.
 
-Why I needed this script:
+Why I create this script:
 In a small apartment with too many to count wifi networks I experience occasional (monthly - weeky - daily) issues. Such an issue starts with wifi performance dropping until it becomes completely unusable. Some time later wifi starts to work again. I once noted that by that time the number of visible wifi networks has dropped to only a handful. In an attempt to fix the issue I tried with 2 other APs and ended up killing them both. 
 My intention is to have a device monitor Wifi 24/7/365 logging issues. Hopefully the logging will lead to date-time stamps where the issues happen and through that identify what is causing it.
 

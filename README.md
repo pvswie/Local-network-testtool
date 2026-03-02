@@ -2,7 +2,7 @@
 This tool is designed to run 24/7/365 logging issues with the (wifi) network being tested.
 
 System requirements:
-- A client running the python3 test script. The script has been tested to work on linux and termux/android.
+- Python3 to run this test script. The script has been tested to work on linux and termux/android.
 - A iperf2 and/or iperf3 server, preferably inside the local (home) network, e.g. on the internet router.
 
 Why I created this script:

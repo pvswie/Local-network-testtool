@@ -6,7 +6,7 @@ This tool is designed to run 24/7/365 logging issues with the (wifi) network bei
 - A iperf2 and/or iperf3 server, preferably inside the local (home) network, e.g. on the internet router.
 
 ## Why I created this script:
-In a small apartment with too many to count wifi networks I experience occasional (monthly - weeky - daily) issues. Such an issue starts with wifi performance dropping until Wifi becomes completely unusable. Some time later things start to work again. My intention is to have a device monitor Wifi 24/7/365 logging all issues. Hopefully the logged date-time stamps lead to identification of the cause.
+In a small apartment with too many to count wifi networks I experience occasional (monthly - weeky - daily) issues. Such an issue starts with wifi performance dropping until Wifi becomes completely unusable. Some time later things start to work again. My intention is to have a device (e.g. a tablet) monitor Wifi 24/7/365 logging all issues. Hopefully the logged date-time stamps lead to identification of the cause.
 
 ## Remarks:
 - The test script uses the iperf3 (or 2) protocol to test whether a minimum bandwidth (1.0 Mbit) is achieved across the network.
